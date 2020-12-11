@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <View>
-        <Text> SALAM </Text>
+        <Text> SALAM this is my First Component With React Native  </Text>
       </View>
     );
   }
