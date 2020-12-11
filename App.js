@@ -5,6 +5,12 @@ import { View,Text,StyleSheet } from 'react-native';
 class App extends Component {
   render() {
     
+    const myStyle = StyleSheet.create({
+      green: {
+        color: 'green',
+        fontSize: 24
+      }
+    });
 
     return (
       <View>
@@ -12,12 +18,7 @@ class App extends Component {
       </View>
     );
 
-    const myStyle = StyleSheet.create({
-      green: {
-        color: 'green',
-        fontSize: 24
-      }
-    });
+    
 
     
   }
